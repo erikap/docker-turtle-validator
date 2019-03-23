@@ -5,5 +5,5 @@ Docker image of a [Turtle validator](https://github.com/IDLabResearch/TurtleVali
 ## Usage
 
 ```bash
-    docker run -v /your/path/to/files:/data erikap/turtle-validator filename.ttl
+    docker run --rm -v /your/path/to/files:/data erikap/turtle-validator filename.ttl
 ```
